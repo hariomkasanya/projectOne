@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Html log file</title>
+  </head>
+  <body>
+    <p><strong>Log File</strong></p>
+    <p class="example1"></p>
+    <p class="example1"></p>
+    <p class="example1"></p>
+    <p class="example1"></p>
+    <p class="example1"></p>
+    <p class="example1"></p>
+    <p class="example1"></p>
+    <p class="example1"></p>
+    <p class="example1"></p>
+    <script>
+      var x = document.getElementsByClassName("example1");
+      for (var y = 0; y < x.length; y++) {
+        x[y].innerHTML = "Log Count "+y+" "+Date()+" Files Unchenged";
+      }
+    </script>
+  </body>
+</html>
